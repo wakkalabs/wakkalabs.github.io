@@ -9,7 +9,7 @@ h_max: 5
 
 <p class="font-weight-light font-italic lead">TL;DR</p>
 
-Learn how to modify your `_config.yml` file. If you are using the remote method and you didn't fork the [chulapa-101 repo](https://github.com/dieghernan/chulapa-101), you can use [this file](https://github.com/dieghernan/chulapa/blob/master/_config.yml) as a starting point. Don't forget to add also `remote_theme: dieghernan/chulapa@[version]` to your file.
+Learn how to modify your `_config.yml` file. If you are using the remote method and you didn't fork the [chulapa-101 repo](https://github.com/dieghernan/chulapa-101), you can use [this file](https://github.com/wakkalabs/wakkalabs.github.io/blob/master/_config.yml) as a starting point. Don't forget to add also `remote_theme: dieghernan/chulapa@[version]` to your file.
 
 For some variables, a default value is provided. This value is shown at the end of the explanation **on bold**.
 
@@ -218,7 +218,7 @@ This is the core feature of <span class="chulapa">Chulapa</span>, please find th
 Please refer to Jekyll Documentation  on [Collections](https://jekyllrb.com/docs/step-by-step/09-collections/), [Pagination](https://jekyllrb.com/docs/pagination/#enable-pagination) and [Front Matter Defaults](https://jekyllrb.com/docs/configuration/front-matter-defaults/), as this part would depend on the purpose and setup of your site. 
 
 The only specific parameter of <span class="chulapa">Chulapa</span> on this section is:
-- `paginator_maxnum`: This parameter would affect only if you are using the <a href="https://github.com/dieghernan/chulapa/blob/master/docs/blog/index.html"><span class="chulapa">Chulapa</span> template for pagination</a>. This parameter would define the maximum number of pagination elements to be shown. **3**.
+- `paginator_maxnum`: This parameter would affect only if you are using the <a href="https://github.com/wakkalabs/wakkalabs.github.ioblob/master/docs/blog/index.html"><span class="chulapa">Chulapa</span> template for pagination</a>. This parameter would define the maximum number of pagination elements to be shown. **3**.
 
 Have a look to a potential Default configuration [here](https://dieghernan.github.io/chulapa/docs/04-layouts#a-note-on-defaults).
 

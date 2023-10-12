@@ -103,7 +103,7 @@ chulapa-skin:
 {: .alert .alert-info .p-3 .mx-2 mb-3}
 
 
-On top of the default [Bootstrap variables](https://github.com/dieghernan/chulapa/blob/master/_sass/bootstrap/_variables.scss) (500+!) this theme has specific variables that makes the customization of specific components easier. See the `vars` dictionary [here]({{ "./docs/variable-dictionary" | absolute_url }}).
+On top of the default [Bootstrap variables](https://github.com/wakkalabs/wakkalabs.github.io/blob/master/_sass/bootstrap/_variables.scss) (500+!) this theme has specific variables that makes the customization of specific components easier. See the `vars` dictionary [here]({{ "./docs/variable-dictionary" | absolute_url }}).
 
 The critical variable for `autothemer` is `primary`, so you can create a full theme just playing with those two options. By default, `primary` is set to Bootstrap default primary color (<span style="color:#007bff;">#007bff</span> in v4.x).
 {: .alert .alert-info .p-3 .mx-2 mb-3}
@@ -174,7 +174,7 @@ The skin is already implemented on your theme. Please remember to remove `$` and
 
 
 
-**Alternatively**, you can save the SCSS code on `_sass/skins/THEMENAME.scss` to create it as a `theme`. Then just call `theme: THEMENAME` on your `_config.yml`. If you have an awesome skin and you want to include it on <span class="chulapa">Chulapa</span> just PR! See [here the code](https://github.com/dieghernan/chulapa/blob/master/_sass/skins/sunset.scss) for Sunset implemented as skin.
+**Alternatively**, you can save the SCSS code on `_sass/skins/THEMENAME.scss` to create it as a `theme`. Then just call `theme: THEMENAME` on your `_config.yml`. If you have an awesome skin and you want to include it on <span class="chulapa">Chulapa</span> just PR! See [here the code](https://github.com/wakkalabs/wakkalabs.github.io/blob/master/_sass/skins/sunset.scss) for Sunset implemented as skin.
 {: .alert .alert-info .p-3 .mx-2 mb-2}
 
 

@@ -249,7 +249,7 @@ Optional arguments:
 
 See a working example [here](https://dieghernan.github.io/chulapa/demo).
 
-**Note that** for `posts` you have a better option provided by [`jekyll-paginate`](https://jekyllrb.com/docs/pagination/#enable-pagination). If you go for this option, copy [this file](https://github.com/dieghernan/chulapa/blob/master/docs/blog/index.html) and use it on your site, according to your `paginate_path`. See a live demo on [chulapa-101](https://dieghernan.github.io/chulapa-101/blog/).
+**Note that** for `posts` you have a better option provided by [`jekyll-paginate`](https://jekyllrb.com/docs/pagination/#enable-pagination). If you go for this /blob/master/docs/blog/index.html) and use it on your site, according to your `paginate_path`. See a live demo on [chulapa-101](https://dieghernan.github.io/chulapa-101/blog/).
 {: .alert .alert-info .p-3 .mx-2}
 
 
@@ -520,8 +520,7 @@ Safe formats under the `fileurl` approach are `*.mp4`, `*.ogg` and `*.webm` file
 
 YouTube videos are lazy deferred. This means that 
 initially a YouTube video is displayed as the  image preview and the actual video is loaded when the user clicks on the image. This implementation intends to improve
-page speed.  See also [chulapa/issues/11](https://github.com/dieghernan/chulapa/issues/11).
-
+page speed. 
 You can opt-out of this behaviour by using `nolazy` option:
 
 {% raw %}
