@@ -3,7 +3,7 @@ name: Check linting
 on:
   push:
     branches:
-      - main
+      - '*'
   pull_request:
 
 permissions:
@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node.JS
         uses: actions/setup-node@v3
         with:
-          node-version-file: '.node-version'
+          node-version-file: '.node-ve  rsion'
           cache: npm
 
       - name: Install dependencies
