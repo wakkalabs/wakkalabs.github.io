@@ -2,8 +2,8 @@ title: Welcome to Wakkalabs
 email: acarter@wakkalabs.com
 description: "The worlds oldest long fortgotten domain parking garage rooftop."
 domain: wakkalabs.github.io # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://wakkalabs.github.io # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /docs
+# the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /
 
 url: "https://wakkalabs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: acarter-ims
