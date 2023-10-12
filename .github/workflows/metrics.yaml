@@ -25,4 +25,4 @@ jobs:
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_pwa: yes
           plugin_pagespeed_screenshot: yes
-          plugin_pagespeed_url: https://dieghernan.github.io/chulapa/
+          plugin_pagespeed_url: https://wakkalabs.github.io/chulapa/

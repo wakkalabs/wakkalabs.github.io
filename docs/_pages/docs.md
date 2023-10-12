@@ -14,7 +14,7 @@ index_items: 20
 <span class="chulapa">Chulapa</span> Jekyll Theme has an extensive documentation.
 
 Read the docs to start with <span class="chulapa">Chulapa</span>, or use
-the [Search](https://dieghernan.github.io/chulapa/search) of the site.
+the [Search](https://wakkalabs.github.io/chulapa/search) of the site.
 
 
 Have fun!

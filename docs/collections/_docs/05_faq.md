@@ -167,7 +167,7 @@ Cool! I would like to use it. I love Madrid indeed! There is nothing quite like 
 4. Click on *Edit as HTML*, and just before `</head>`, paste this:
 
 ```html
-  <link rel="stylesheet" href="https://dieghernan.github.io/chulapa/assets/css/skins/[NAME OF SKIN].css">
+  <link rel="stylesheet" href="https://wakkalabs.github.io/chulapa/assets/css/skins/[NAME OF SKIN].css">
 ```
 
 Congratulations! You would have a quick preview of that page as it would be under the [NAME OF SKIN] desired.

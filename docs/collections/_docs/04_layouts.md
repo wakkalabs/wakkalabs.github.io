@@ -11,7 +11,7 @@ Once that you have set your site and you are happy with the look, you can start 
 
 It is assumed that you are familiar with [Markdown](https://markdown-it.github.io/) and [Jekyll](https://jekyllrb.com/docs/), so this would not be covered on this page. Instead, we focus on the Layouts and Snippets installed on <span class="chulapa">Chulapa</span>.
 
-You can check some demos on [this section](https://dieghernan.github.io/chulapa/demo).
+You can check some demos on [this section](https://wakkalabs.github.io/chulapa/demo).
 
 ## A. Layouts
 
@@ -75,7 +75,7 @@ project_links:
 ```
 - `show_date`: This would display the date of the page and the last modified date, if provided.
 - `show_sociallinks`: This option would display a navbar with sharing links to Facebook, Twitter, Whatsapp and LinkedIn.
-- `show_author`: Set it to `true` to display the author of the page. By default it would display the `author` set on your [global settings](https://dieghernan.github.io/chulapa/docs/02-config), but you can override it via the page front matter:
+- `show_author`: Set it to `true` to display the author of the page. By default it would display the `author` set on your [global settings](https://wakkalabs.github.io/chulapa/docs/02-config), but you can override it via the page front matter:
 
 ```yaml
 ---
@@ -97,7 +97,7 @@ author:
 - `show_sidetoc`: Alternative implementation of `show_toc` where the table of contents is displayed on an sliding off-canvas sidebar. You would notice a new button <button class="btn btn-primary btn-sm rounded-right bs-canvas-anim chulapa-btn-nofocus chulapa-fa-static" aria-label="Example button" style="opacity:0.4;border-top-left-radius: 0;
   border-bottom-left-radius: 0;">
 		<i class="fa-solid fa-plus"></i><span class="sr-only">Example button</span>
-	</button> on the left side of your page, click it to expand the sidebar table of contents. See the implementation on the [Current skin](https://dieghernan.github.io/chulapa/skins/current).
+	</button> on the left side of your page, click it to expand the sidebar table of contents. See the implementation on the [Current skin](https://wakkalabs.github.io/chulapa/skins/current).
 
 **A technical note** Only headings with `id` would be displayed. If you are including headers via markdown (`### Title`) you don't have to worry, as **kramdown** would do it for you. However if you are using `html` (`<h1 id="aa">My heading</h1>`) don't forget to include the `id`.
 {: .alert .alert-info .p-3 .mx-2}
@@ -133,7 +133,7 @@ breadcrumb_list:
 ---
 ```
 
-See an example [here](https://dieghernan.github.io/chulapa/demo/archive).
+See an example [here](https://wakkalabs.github.io/chulapa/demo/archive).
 
 Even if you don't want to show the breadcrumb, you can still specify the paths. That would create a valid data structure for Google Rich Results. More information [here](https://developers.google.com/search/docs/data-types/breadcrumb) and test tool [here](https://search.google.com/structured-data/testing-tool/).
 {: .alert .alert-info .p-3 .mx-2}
@@ -166,7 +166,7 @@ All these layouts are meant to be used for specific purposes rather than for ove
 
 #### Archive
 
-This layout creates an historic archive of your content. See an example [here](https://dieghernan.github.io/chulapa/demo/archive). Currently you can include any collection (including `_posts`) or select some. This allows you to have specific archives by collection and an overall archive for all your content.
+This layout creates an historic archive of your content. See an example [here](https://wakkalabs.github.io/chulapa/demo/archive). Currently you can include any collection (including `_posts`) or select some. This allows you to have specific archives by collection and an overall archive for all your content.
 
 Options available:
 - `include_collection`: Name of the collection or collection (separated by `,` to be included on the page.  If not provided, **all the documents of all the collections would be included**.
@@ -247,9 +247,9 @@ Optional arguments:
 - `index_sort_asc`: Set it to `true` if yo want to have the cards sorted in ascending order.
 - `index_items`: Limit the number of items to be displayed. **10**.
 
-See a working example [here](https://dieghernan.github.io/chulapa/demo).
+See a working example [here](https://wakkalabs.github.io/chulapa/demo).
 
-**Note that** for `posts` you have a better option provided by [`jekyll-paginate`](https://jekyllrb.com/docs/pagination/#enable-pagination). If you go for this /blob/master/docs/blog/index.html) and use it on your site, according to your `paginate_path`. See a live demo on [chulapa-101](https://dieghernan.github.io/chulapa-101/blog/).
+**Note that** for `posts` you have a better option provided by [`jekyll-paginate`](https://jekyllrb.com/docs/pagination/#enable-pagination). If you go for this /blob/master/docs/blog/index.html) and use it on your site, according to your `paginate_path`. See a live demo on [chulapa-101](https://wakkalabs.github.io/chulapa-101/blog/).
 {: .alert .alert-info .p-3 .mx-2}
 
 

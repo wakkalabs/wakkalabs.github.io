@@ -27,13 +27,13 @@ If you use another provider, or you prefer another method, there are two feature
   2. Create a blank file on your repo (or modify) under this path: `assets/css/custom.css` (or `custom.scss`). You can import your fonts via css there. Note that you can include new css styles or override existing ones there.
 
 
-**Note that** while this option would load the fonts, you still need to tell the theme to use them via `vars`, please read [this section](https://dieghernan.github.io/chulapa/docs/03-theming#variables) to know how.
+**Note that** while this option would load the fonts, you still need to tell the theme to use them via `vars`, please read [this section](https://wakkalabs.github.io/chulapa/docs/03-theming#variables) to know how.
 {: .alert .alert-warning .p-3 .mx-2 mb-3}
 
 
 ## Code highlighting
 
-Pygments highlighting styles available Have a look to the [Live demo](https://dieghernan.github.io/chulapa/docs/syntax-highlighting) and choose the one you want. **default**
+Pygments highlighting styles available Have a look to the [Live demo](https://wakkalabs.github.io/chulapa/docs/syntax-highlighting) and choose the one you want. **default**
 
 
 

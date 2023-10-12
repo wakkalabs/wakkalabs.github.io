@@ -5,34 +5,28 @@ repository: dieghernan/chulapa
 url: "https://dieghernan.github.io"
 baseurl: "/chulapa"
 
-title: Chulapa
-subtitle: A full flexible Jekyll theme
-description: Template for creating free sites on Github Pages
-og_image: "./assets/img/site/banner.png"
-twitter_site: dhernangomez
-timezone: "Europe/Madrid"
-author:
-  name: dieghernan
-  avatar: ./assets/img/site/dieghernan-avatar.png
-  location: Madrid, Spain
-  links:
-  - url: https://github.com/dieghernan/
-    icon: "fab fa-github"
-    label: GitHub
-  - url: https://dieghernan.github.io/
-    icon: fas fa-blog
-    label: Blog
-  - url: https://stackoverflow.com/users/7877917/dieghernan
-    icon: "fab fa-stack-overflow"
-    label: StackOverflow
-gtag_id: UA-139034853-5
-search:
-  provider: algolia
-  algolia_logo: true
-algolia:
-  application_id: "KOIKA5PDQO"
-  index_name: "chulapa"
-  search_only_api_key: "7f1fe42bef3f03458cb3a911ebc7e0ac"
+# title: Chulapa
+# subtitle: A full flexible Jekyll theme
+# description: Template for creating free sites on Github Pages
+# og_image: "./assets/img/site/banner.png"
+# twitter_site: dhernangomez
+# timezone: "Europe/Madrid"
+# author:
+#   name: dieghernan
+#   avatar: ./assets/img/site/dieghernan-avatar.png
+#   location: Madrid, Spain
+#   links:
+#   - url: https://github.com/dieghernan/
+#     icon: "fab fa-github"
+#     label: GitHub
+#   - url: https://wakkalabs.github.io/
+#     icon: fas fa-blog
+#     label: Blog
+#   - url: https://stackoverflow.com/users/7877917/dieghernan
+#     icon: "fab fa-stack-overflow"
+#     label: StackOverflow
+
+
   files_to_exclude: #Optional
   - _layouts/*.html
   - _includes/*.html
@@ -55,10 +49,7 @@ algolia:
   - desc(subtitle)
 comments:
   provider: welcomments
-  cusdis_app_id: "ba6333c9-c7b1-4578-a932-e9ee3e71f120"
-  website_id: "XaFqz82GQETRJnLi7verVsyBS"
 
-google_cse_id: 002514516175957445995:tvgnhtemtbu
 
 # B. Navigation
 navbar:

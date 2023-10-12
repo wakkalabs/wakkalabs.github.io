@@ -41,7 +41,7 @@ This page is a demo of the different styles of syntax highlighting shipped by de
   var csshigh = document.getElementById("csshigh");
   	
   	function reaplyStyles(themename){
-  		csshigh.href = 'https://dieghernan.github.io/chulapa/assets/css/highlighter/'+themename+'.css';
+  		csshigh.href = 'https://wakkalabs.github.io/chulapa/assets/css/highlighter/'+themename+'.css';
   		
   		title = document.getElementById("config");
   		
