@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "chulapa-jekyll"
+  spec.name          = "wakkalabs"
   spec.version       = "1.0.1.9000"
-  spec.authors       = ["Diego H."]
-  spec.email         = ["diego.hernangomezherrero@gmail.com"]
+  spec.authors       = ["Austin C"]
+  spec.email         = ["acarter@wakkalabs.com"]
 
   spec.summary       = "A full flexible Jekyll theme for Github Pages."
-  spec.homepage      = "https://github.com/dieghernan/chulapa"
+  spec.homepage      = "https://github.com/wakkalabs/wakkalabs.github.io"
   spec.license       = "MIT"
   spec.metadata["plugin_type"] = "theme"
 
