@@ -12,7 +12,7 @@ header_img: https://images.unsplash.com/photo-1545290614-5ceedf604139?ixlib=rb-1
 
 Check the latest results of <span class="chulapa">Chulapa</span> on [PageSpeed](https://developers.google.com/speed/docs/insights/v5/about)[^1]. You can click on the image to get the most up-to-date results.
 
-[![Performance](https://raw.githubusercontent.com/dieghernan/chulapa/master/github-metrics.svg)](https://pagespeed.web.dev/report?url=https://dieghernan.github.io/chulapa/)
+[![Performance](https://raw.githubusercontent.com/dieghernan/chulapa/master/github-metrics.svg)](https://pagespeed.web.dev/report?url=https://wakkalabs.github.io/chulapa/)
 
 [^1]: PageSpeed Insights (PSI) is a tool developed by Google that reports on the user experience of a page on both mobile and desktop devices.
 

@@ -5,7 +5,7 @@ permalink: ./atom.xml
 {%- assign og_image = site.og_image | default: site.author.avatar | default: site.github.owner_gravatar_url | absolute_url -%}
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" >
-	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
+	<generator uri="https://wakkalabs.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="{{ page.url | absolute_url }}" rel="self" type="application/atom+xml" />
 	<link href="{{  ""  | absolute_url }}" rel="alternate" type="text/html" />
 	<updated>{{ site.time | date_to_xmlschema }}</updated>

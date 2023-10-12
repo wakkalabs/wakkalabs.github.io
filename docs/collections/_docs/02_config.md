@@ -25,7 +25,7 @@ For some variables, a default value is provided. This value is shown at the end 
 
 ### SEO
 
-**Search Engine Optimization** is important (obviously) for any site. Some of the previous options would affect to SEO, however <span class="chulapa">Chulapa</span> has a specific focus on that (check also [our PageSpeed Results](https://dieghernan.github.io/chulapa/pagespeed)):
+**Search Engine Optimization** is important (obviously) for any site. Some of the previous options would affect to SEO, however <span class="chulapa">Chulapa</span> has a specific focus on that (check also [our PageSpeed Results](https://wakkalabs.github.io/chulapa/pagespeed)):
 
 - `og_image`: The default image to be displayed  when a page of your site is shared on any of the major social networks (Facebook, Twitter, etc.). If `header_img` or `og_image` are set on  the front matter of a page those images would be used instead. **Author avatar (if set, see below) or your Github avatar**.
 - `twitter_site`: The twitter username **without @!** of the owner of the site. Useful when sharing on Twitter.
@@ -220,7 +220,7 @@ Please refer to Jekyll Documentation  on [Collections](https://jekyllrb.com/docs
 The only specific parameter of <span class="chulapa">Chulapa</span> on this section is:
 - `paginator_maxnum`: This parameter would affect only if you are using the <a href="https://github.com/wakkalabs/wakkalabs.github.ioblob/master/docs/blog/index.html"><span class="chulapa">Chulapa</span> template for pagination</a>. This parameter would define the maximum number of pagination elements to be shown. **3**.
 
-Have a look to a potential Default configuration [here](https://dieghernan.github.io/chulapa/docs/04-layouts#a-note-on-defaults).
+Have a look to a potential Default configuration [here](https://wakkalabs.github.io/chulapa/docs/04-layouts#a-note-on-defaults).
 
 
 ## XX. Other settings.

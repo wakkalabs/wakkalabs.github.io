@@ -8,7 +8,7 @@ permalink: /skins
 
 <span class="chulapa">Chulapa</span> includes a wide collection of predefined skins, developed by different providers as [Bootswatch](https://bootswatch.com/) and [Tophat](https://themesguide.github.io/top-hat/dist/). Click on the preview to learn more and instructions on how to install it, it's easy and fast!
 
-Additionally, you can have a preview of the current theme [here](https://dieghernan.github.io/chulapa/skins/current).
+Additionally, you can have a preview of the current theme [here](https://wakkalabs.github.io/chulapa/skins/current).
 
 
 {% assign alldocs = site.documents | where_exp: "item", "item.collection == 'skins'" | sort: "date" | reverse %}
