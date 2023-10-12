@@ -4,13 +4,11 @@ on:
     branches:
       - main
 
-permissions:
-  contents: write
-
 jobs:
   draft-release:
     runs-on: ubuntu-latest
     steps:
-      - uses: release-drafter/release-drafter@65c5fb495d1e69aa8c08a3317bc44ff8aabe9772 # v5.24.0
+      - uses: actions/checkout@v3
+      - uses: release-drafter/release-drafter@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
